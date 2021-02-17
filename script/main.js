@@ -50,7 +50,7 @@ const menu = [
     {
         id: 7,
         title: "Birthday Cake",
-        category: "Celebration",
+        category: "Party-Cakes",
         price: 70,
         img: "images/birthday.jpg",
         desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta minus unde, exercitationem eum voluptate dolor possimus aut impedit quae assumenda? `,
@@ -58,7 +58,7 @@ const menu = [
     {
         id: 8,
         title: "Baby Shower",
-        category: "Celebration",
+        category: "Party-Cakes",
         price: 100,
         img: "images/babyShower.jpg",
         desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta minus unde, exercitationem eum voluptate dolor possimus aut impedit quae assumenda? `,
@@ -66,7 +66,7 @@ const menu = [
     {
         id: 9,
         title: "Vanilla cupcake",
-        category: "Cup-Cakes",
+        category: "CupCakes",
         price: 15,
         img: "images/Themed.jpg",
         desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta minus unde, exercitationem eum voluptate dolor possimus aut impedit quae assumenda? `,
@@ -74,7 +74,7 @@ const menu = [
     {
         id: 10,
         title: "Chocolate Cupcake",
-        category: "Cup-Cakes",
+        category: "CupCakes",
         price: 15,
         img: "images/cupCake.jpg",
         desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta minus unde, exercitationem eum voluptate dolor possimus aut impedit quae assumenda? `,
@@ -83,7 +83,7 @@ const menu = [
     {
         id: 11,
         title: 'Christmas CupCakes',
-        category:"Cup-Cakes",
+        category:"CupCakes",
         price: 15,
         img: "images/christmasThemed.jpg",
         desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta minus unde, exercitationem eum voluptate dolor possimus aut impedit quae assumenda? `,
@@ -154,7 +154,7 @@ function displayMenu(menuItems) {
             <p class="itemDescription">
               ${item.desc}
             </p>
-            <div class="cartbtn"><button type="button" class="btn addToCart">Add to Cart</button></div>
+            <div class="cartbtn"><button type="button" class="addToCart">Add to Cart</button></div>
           </div>
          
         </article>`;
