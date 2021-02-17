@@ -12,7 +12,7 @@ const menu = [
       title: "BlackForest CakeSlice",
       category: "Cake",
       price: 15,
-      img: "images/blackforest2.jpg",
+      img: "images/blackForest2.jpg",
       desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta minus unde, exercitationem eum voluptate dolor possimus aut impedit quae assumenda? `,
     },
     {
