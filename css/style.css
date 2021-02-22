@@ -200,8 +200,6 @@ p {
     background:var(--black);
   }
   
-   
-  
   @media screen and (min-width: 768px) {
     .menuItem {
       grid-template-columns: 225px 1fr;
@@ -241,4 +239,47 @@ p {
   color:var(--gold);
   
 }
+.cart{
+  position:fixed;
+  min-height:12rem;
+  background:#fff;
+  top:4rem;
+  right:0;
+  transition: all 0.3s ease-in-out;
+  width:0;
+  overflow:hidden;
+}
+.show-cart{
+  width: 25rem;
+  padding: 2rem 1.5rem;
+  transform: rotateY(-360deg);
+}
+.cart-item{
+  transition: all 2s ease-in-out;
+}
+.cart-item-remove{
+  color: red;
+  transition: all 1s ease-in-out;
+}
+.cart-item-remove:hover{
+  transform:scale(1.1)
+}
+.cart-info-icon{
+  cursor: pointer;
+}
+.btn-pink,.btn-black {
+  color: var(--gold) !important;
+  border-color: var(--black) !important;
+}
+.btn
+.btn-black:hover,.btn-pink:hover{
+  color: crimson !important;
+  background: rgb(39, 39, 32) !important;
+}
+.cart-row{
+  display:inline-block;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
   

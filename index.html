@@ -10,21 +10,41 @@
 </head>
 <body>
   <header>
-      <div class='cart-info'id="cart-info">
-        <span class="cart-info__icon"><i class="fas fa-shopping-cart"></i></span>
+      <div class="cart-info" id="cart-info">
+        <span class="cart-info-icon"><i class="fas fa-shopping-cart"></i></span>
         <p class="mb-0 text-capitalize"><!-- <span id="item-count">0 </span> items - $<span class="item-total">0</span> --></p>
       </div>
   </header>
-    <section class="menu">
-       
-        <div class="title">
-          <h2>Our Menu</h2>
-          <div class="line"></div>
+  <section id="cart" class="cart">
+        <h4 class="cartItemHeader">CART</h4>
+        <div class="cart-row">
+          <div class="cart-item cart-header">ITEM</div>
+          <div class="cart-price cart-header">PRICE</div>
+          <div class="cart-quantity cart-header">QUANTITY</div>
         </div>
-       
-        <div class="menuBtnDiv"></div>
-        <div class="sectionDiv"></div>
-      </section>
+        <div class="cart-items"></div>
+        <div class="cart-total">
+          <strong class="cart-totaltitle">Total</strong>
+          <span class="cart-totalprice">$0</span>
+          <div class="cart-buttons-container mt-3">
+            <a href="#" id="clear-cart" class="btn btn-outline-secondary btn-black">Clear Cart</a>
+            <a href="#" class="btn btn-outline-secondary btn-pink">checkout</a>
+          </div>
+        </div>
+        <!-- <a href="#" id='cart-item-remove' class="cart-item-remove">
+          <i class="fas fa-trash"></i>
+        </a> -->
+  </section>
+  <section class="menu">
+      
+      <div class="title">
+        <h2>Our Menu</h2>
+        <div class="line"></div>
+      </div>
+      
+      <div class="menuBtnDiv"></div>
+      <div class="sectionDiv"></div>
+    </section>
     <script src="script/main.js"></script>
 </body>
 </html>
