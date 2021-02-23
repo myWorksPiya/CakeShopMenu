@@ -3,9 +3,9 @@ This cake shop menu organiser is used to sort and see different categories of th
 
 **Technologies used**
 
-## HTML
-## CSS
-## JavaScript
+- HTML
+- CSS
+- JavaScript
 
 
 
