@@ -7,6 +7,4 @@ This cake shop menu organiser is used to sort and see different categories of th
 - CSS
 - JavaScript
 
-
-
 <a href="https://myworkspiya.github.io/CakeShopCart/">Demo Link</a>
