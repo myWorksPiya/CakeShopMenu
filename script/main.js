@@ -8,14 +8,6 @@ const menu = [
       desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta minus unde, exercitationem eum voluptate dolor possimus aut impedit quae assumenda?',
     },
     {
-      id: 2,
-      title: "BlackForest CakeSlice",
-      category: "Cake",
-      price: 15,
-      img: "images/blackForest2.jpg",
-      desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta minus unde, exercitationem eum voluptate dolor possimus aut impedit quae assumenda? `,
-    },
-    {
         id: 3,
         title: "Coffee Cake",
         category: "Cake",
